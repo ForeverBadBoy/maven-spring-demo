@@ -64,5 +64,6 @@
 	 
 	<tx:annotation-driven transaction-manager="transactionManager"/>
 	
+	<import resource="elastic-job.xml"/>
 	
 </beans>
