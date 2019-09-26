@@ -16,6 +16,7 @@
 		<slf4j.version>1.7.5</slf4j.version>
 		<log4j.version>1.2.17</log4j.version>
 	  	<elastic.version>2.1.5</elastic.version>
+	        <quartz.version>2.2.1</quartz.version>
   </properties>
   <dependencies>
     	<dependency>
@@ -178,6 +179,18 @@
             	<groupId>com.dangdang</groupId>
             	<artifactId>elastic-job-lite-spring</artifactId>
             	<version>${elastic.version}</version>
+            </dependency>
+	  
+	    <!-- quartz相关 -->
+            <dependency>
+            	<groupId>org.quartz-scheduler</groupId>
+            	<artifactId>quartz</artifactId>
+            	<version>${quartz.version}</version>
+            </dependency>
+            <dependency>
+            	<groupId>org.quartz-scheduler</groupId>
+            	<artifactId>quartz-jobs</artifactId>
+            	<version>${quartz.version}</version>
             </dependency>
   </dependencies>
   <build>
