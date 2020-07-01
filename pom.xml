@@ -16,7 +16,7 @@
 		<slf4j.version>1.7.5</slf4j.version>
 		<log4j.version>1.2.17</log4j.version>
 	  	<elastic.version>2.1.5</elastic.version>
-	        <quartz.version>2.2.1</quartz.version>
+	        <quartz.version>2.3.2</quartz.version>
 	  	<lombok.version>1.16.18</lombok.version>
         	<logback.version>1.2.3</logback.version>
   </properties>
